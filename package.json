@@ -1,5 +1,5 @@
 {
-  "name": "validation-functions",
+  "name": "validate-functions",
   "version": "0.0.0-development",
   "description": "A library containing validation functions such as SSN.",
   "main": "index.js",
