@@ -34,8 +34,7 @@ jobs:
       run: npm run build
 
     - name: Validate npm
-      run: npm whoami
-    - run: npm login 
+      run: npm login 
     - run: npm whoami
 
     - name: Audit npm signatures
