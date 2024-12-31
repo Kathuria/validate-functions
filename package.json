@@ -1,0 +1,39 @@
+{
+  "name": "validation-functions",
+  "version": "0.0.0-development",
+  "description": "A library containing validation functions such as SSN.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "build": "tsc",
+    "semantic-release": "semantic-release"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kathuria/validation-functions.git"
+  },
+  "keywords": [
+    "validation",
+    "functions"
+  ],
+  "author": "Avi Kathuria",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kathuria/validation-functions/issues"
+  },
+  "homepage": "https://github.com/Kathuria/validation-functions#readme",
+  "devDependencies": {
+    "@types/jest": "^29.5.14",
+    "jest": "^29.7.0",
+    "semantic-release": "^24.2.0",
+    "ts-jest": "^29.2.5",
+    "typescript": "^5.7.2"
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "publishConfig": {
+    "access": "public"
+  }
+}
