@@ -1,3 +1,3 @@
-export * from './aadhaar-validation';
-export * from './email-validation';
-export * from './ssn-validation';
+export * from './aadhaar';
+export * from './email';
+export * from './ssn';

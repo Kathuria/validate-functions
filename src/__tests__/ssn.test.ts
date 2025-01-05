@@ -1,4 +1,4 @@
-import { isValid_SSN } from '../ssn-validation';
+import { isValid_SSN } from '../ssn';
 
 describe('isValid_SSN', () => {
   it('should return false for SSN with length not equal to 9', () => {

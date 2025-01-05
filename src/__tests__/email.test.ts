@@ -1,4 +1,4 @@
-import { isValid_Email } from '../email-validation';
+import { isValid_Email } from '../email';
 
 describe('isValid_Email', () => {
   it('should return true for valid email addresses', () => {

@@ -1,4 +1,4 @@
-import { isValid_Aadhaar_Number } from '../aadhaar-validation';
+import { isValid_Aadhaar_Number } from '../aadhaar';
 
 describe('isValid_Aadhaar_Number', () => {
   it('should return false for null input', () => {
