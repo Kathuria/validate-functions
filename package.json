@@ -4,7 +4,7 @@
   "description": "A library containing various validation functions.",
   "main": "index.js",
   "scripts": {
-    "test": "jest --silent --coverage",
+    "test": "jest --coverage",
     "build": "tsc",
     "format": "prettier --config .prettierrc --write 'src/**/*.{ts,tsx}'",
     "semantic-release": "semantic-release"
