@@ -15,6 +15,7 @@ npm install validate-functions
 - **Email Validation**: Ensures that email addresses conform to standard formats.
 - **SSN Validation**: Validates U.S. Social Security Numbers based on predefined rules.
 - **Aadhaar Validation**: Checks the validity of Indian Aadhaar numbers using specific patterns.
+- **Credit Card**: The credit card validation uses the Luhn algorithm to verify the validity of credit card numbers structurally.
 
 
 Usage Details available at [here](./USAGE_DETAILS.md).

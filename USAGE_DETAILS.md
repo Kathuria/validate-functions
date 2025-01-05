@@ -26,3 +26,12 @@ import { isValid_Aadhaar_Number } from 'validate-functions/aadhaar';
 const aadhaarNumber = '1234 5678 9012';
 console.log(isValid_Aadhaar_Number(aadhaarNumber)); // Output: true if valid, false otherwise
 ```
+
+- **isValid_Credit_Card**
+
+```typescript
+import { isValid_Credit_Card } from 'validate-functions/credit-card';
+
+const creditCardNumber = '4539 1488 0343 6467'; // Example of a valid Visa card number
+console.log(isValid_Credit_Card(creditCardNumber)); // Output: true if valid, false otherwise
+```
