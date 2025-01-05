@@ -19,6 +19,7 @@ npm install validate-functions
 - **IP Validation**: Validate IPv4 and IPv6 formats.
 - **Hex Color Validation**: Validate #RRGGBB or #RGB color formats.
 - **Postal/ZIP Code Validation**: Validate based on country-specific formats. It supports top 25 countries based on ISO 3166-1 alpha-2 codes namely: US, CN, IN, ID, PK, BR, NG, BD, RU, MX, JP, ET, PH, EG, VN, CD, TR, IR, DE, TH, GB, FR, IT, TZ, ZA.
+- **URL Validation**: Validate structure and it supports URLs with and without protocols, and it handles query parameters and fragments.
 
 
 Usage details are available [here](./USAGE_DETAILS.md).

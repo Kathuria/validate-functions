@@ -75,3 +75,13 @@ import { isValid_Postal_Code, CountryCode } from 'validate-functions/postal-zip'
 const indianPostalCode = '110001';
 console.log(isValid_Postal_Code(indianPostalCode, CountryCode.IN)); // Output: true
 ```
+
+- **isValid_URL**
+
+```typescript
+import { isValid_URL } from 'validate-functions/url';
+
+// Example of a URL with query parameters
+const urlWithQuery = 'http://example.com?name=value';
+console.log(isValid_URL(urlWithQuery)); // Output: true
+```
