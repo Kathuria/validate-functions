@@ -65,3 +65,13 @@ console.log(isValid_Hex_Color(hexColor)); // Output: true if valid, false otherw
 const hexColor6 = '#abcdef'; // Example of a valid 6-digit hex color
 console.log(isValid_Hex_Color(hexColor6)); // Output: true if valid, false otherwise
 ```
+
+- **isValid_Postal_Code**
+
+```typescript
+import { isValid_Postal_Code, CountryCode } from 'validate-functions/postal-zip';
+
+// India
+const indianPostalCode = '110001';
+console.log(isValid_Postal_Code(indianPostalCode, CountryCode.IN)); // Output: true
+```
