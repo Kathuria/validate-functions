@@ -11,15 +11,7 @@ npm install validate-functions
 ```
 
 ## Features
-
-- **Email Validation**: Ensures that email addresses conform to standard formats.
-- **SSN Validation**: Validates U.S. Social Security Numbers based on predefined rules.
-- **Aadhaar Validation**: Checks the validity of Indian Aadhaar numbers using specific patterns.
-- **Credit Card Validation**: Validate using the Luhn algorithm.
-- **IP Validation**: Validate IPv4 and IPv6 formats.
-- **Hex Color Validation**: Validate #RRGGBB or #RGB color formats.
-- **Postal/ZIP Code Validation**: Validate based on country-specific formats. It supports top 25 countries based on ISO 3166-1 alpha-2 codes namely: US, CN, IN, ID, PK, BR, NG, BD, RU, MX, JP, ET, PH, EG, VN, CD, TR, IR, DE, TH, GB, FR, IT, TZ, ZA.
-- **URL Validation**: Validate structure and it supports URLs with and without protocols, and it handles query parameters and fragments.
+This package includes various categorised validators which can be helppful for various developments.
 
 ### Identification and Financial Numbers:
 1. **Credit Card Number**: Validate using the Luhn algorithm.
