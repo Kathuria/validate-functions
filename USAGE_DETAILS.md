@@ -35,3 +35,21 @@ import { isValid_Credit_Card } from 'validate-functions/credit-card';
 const creditCardNumber = '4539 1488 0343 6467'; // Example of a valid Visa card number
 console.log(isValid_Credit_Card(creditCardNumber)); // Output: true if valid, false otherwise
 ```
+
+- **isValid_IPv4**
+
+```typescript
+import { isValid_IPv4 } from 'validate-functions/ip';
+
+const ipv4Address = '192.168.1.1';
+console.log(isValid_IPv4(ipv4Address)); // Output: true if valid, false otherwise
+```
+
+- **isValid_IPv6**
+
+```typescript
+import { isValid_IPv6 } from 'validate-functions/ip';
+
+const ipv6Address = '2001:0db8:85a3:0000:0000:8a2e:0370:7334';
+console.log(isValid_IPv6(ipv6Address)); // Output: true if valid, false otherwise
+```
