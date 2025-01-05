@@ -1,6 +1,6 @@
 # validate-functions
 
-The `validate-functions` package provides a set of utility functions for validating common identification numbers and formats. This package will be keep on updating so better look out for latest version for more validation functions.
+The `validate-functions` package provides a set of utility functions for validating common identification numbers and formats.
 
 ## Installation
 
@@ -9,6 +9,8 @@ To install the package, use npm:
 ```bash
 npm install validate-functions
 ```
+
+More usage details are available [here](./USAGE_DETAILS.md).
 
 ## Features
 This package includes various categorised validators which can be helppful for various developments.
@@ -43,6 +45,3 @@ This package includes various categorised validators which can be helppful for v
 15. **Boolean Strings**: Validate "true", "false", "1", "0", etc. (Upcoming)
 16. **Hex Color Codes**: Validate `#RRGGBB` or `#RGB` color formats.
 17. **EAN/UPC**: Validate international product codes. (Upcoming)
-
-
-Usage details are available [here](./USAGE_DETAILS.md).
