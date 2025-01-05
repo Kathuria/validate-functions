@@ -53,3 +53,15 @@ import { isValid_IPv6 } from 'validate-functions/ip';
 const ipv6Address = '2001:0db8:85a3:0000:0000:8a2e:0370:7334';
 console.log(isValid_IPv6(ipv6Address)); // Output: true if valid, false otherwise
 ```
+
+- **isValid_Hex_Color**
+
+```typescript
+import { isValid_Hex_Color } from 'validate-functions/hex-code';
+
+const hexColor = '#abc'; // Example of a valid 3-digit hex color
+console.log(isValid_Hex_Color(hexColor)); // Output: true if valid, false otherwise
+
+const hexColor6 = '#abcdef'; // Example of a valid 6-digit hex color
+console.log(isValid_Hex_Color(hexColor6)); // Output: true if valid, false otherwise
+```

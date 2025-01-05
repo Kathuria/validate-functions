@@ -16,6 +16,8 @@ npm install validate-functions
 - **SSN Validation**: Validates U.S. Social Security Numbers based on predefined rules.
 - **Aadhaar Validation**: Checks the validity of Indian Aadhaar numbers using specific patterns.
 - **Credit Card Validation**: The credit card validation uses the Luhn algorithm to verify the validity of credit card numbers structurally.
-- **IP Validation**: IPv4 and IPv6 validation for specififcations. 
+- **IP Validation**: Validates IPv4 and IPv6 specififcations. 
+- **Hex Color Validation**: Validates string adheres to the standard format of a hexadecimal color code
 
-Usage Details available at [here](./USAGE_DETAILS.md).
+
+Usage details are available [here](./USAGE_DETAILS.md).
