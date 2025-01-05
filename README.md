@@ -39,9 +39,8 @@ This package includes various categorised validators which can be helppful for v
 13. **Social Insurance Number (SIN)**: For Canada or equivalent in other countries. (Upcoming)
 
 ### Formats and Patterns:
-14. **File Extensions**: Validate file names/extensions (e.g., `.jpg`, `.pdf`). (Upcoming)
+14. **File Extensions**: Validate file names/extensions (e.g., `.jpg`, `.pdf`).
 
 ### Additional Utility:
-15. **Boolean Strings**: Validate "true", "false", "1", "0", etc. (Upcoming)
-16. **Hex Color Codes**: Validate `#RRGGBB` or `#RGB` color formats.
-17. **EAN/UPC**: Validate international product codes. (Upcoming)
+15. **Hex Color Codes**: Validate `#RRGGBB` or `#RGB` color formats.
+16. **EAN/UPC**: Validate international product codes. (Upcoming)

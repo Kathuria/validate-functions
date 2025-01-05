@@ -256,8 +256,8 @@ describe('Postal Code Validation', () => {
   });
 
   describe('Invalid Country Code', () => {
-        it('should return false for an unsupported country code', () => {
-                expect(isValid_Postal_Code('awea23s', 'UN' as CountryCode)).toBe(false);
-        });
-        });    
+    it('should return false for an unsupported country code', () => {
+      expect(isValid_Postal_Code('awea23s', 'UN' as CountryCode)).toBe(false);
+    });
+  });
 });

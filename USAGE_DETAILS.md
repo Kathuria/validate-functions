@@ -85,3 +85,14 @@ import { isValid_URL } from 'validate-functions/url';
 const urlWithQuery = 'http://example.com?name=value';
 console.log(isValid_URL(urlWithQuery)); // Output: true
 ```
+
+- **isValid_File_Extension**
+
+```typescript
+import { isValid_File_Extension } from 'validate-functions/file-extension';
+
+// Example of checking a file extension
+const fileName = 'document.pdf';
+const allowedExtensions = ['pdf', 'doc', 'txt'];
+console.log(isValid_File_Extension(fileName, allowedExtensions)); // Output: true if the extension is valid, false otherwise
+```

@@ -24,7 +24,7 @@ export enum CountryCode {
   FR = 'FR', // France
   IT = 'IT', // Italy
   TZ = 'TZ', // Tanzania
-  ZA = 'ZA'  // South Africa
+  ZA = 'ZA', // South Africa
 }
 
 /**
@@ -33,7 +33,10 @@ export enum CountryCode {
  * @param countryCode - The country code as an enum.
  * @returns True if the postal code is valid for the given country, otherwise false.
  */
-export const isValid_Postal_Code = (postalCode: string, countryCode: CountryCode): boolean => {
+export const isValid_Postal_Code = (
+  postalCode: string,
+  countryCode: CountryCode
+): boolean => {
   const fiveDigitRegex = /^\d{5}$/;
   const sixDigitRegex = /^\d{6}$/;
   const fourDigitRegex = /^\d{4}$/;
@@ -63,7 +66,7 @@ export const isValid_Postal_Code = (postalCode: string, countryCode: CountryCode
     [CountryCode.FR]: fiveDigitRegex,
     [CountryCode.IT]: fiveDigitRegex,
     [CountryCode.TZ]: fiveDigitRegex,
-    [CountryCode.ZA]: fourDigitRegex
+    [CountryCode.ZA]: fourDigitRegex,
   };
 
   const regex = postalCodeRegexes[countryCode];
